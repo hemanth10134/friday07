@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hey Hey ✨</title>
+    <link rel="icon" type="img/jpg" href="https://c4.wallpaperflare.com/wallpaper/812/187/770/kimi-no-na-wa-tachibana-taki-miyamizu-mitsuha-anime-wallpaper-preview.jpg">
+
+</head>
+<body>
+  
+<div class="rose">
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="text">
+      <span>Happy Rose Day ✨</span>
+  </div>
+</div>
+<span id="prompt">Touch the rose</span>
+
+<!-- Letter popup -->
+<div id="letter" class="letter" style="display: none;">
+  <div class="letter-content">
+      <h2>My dear qt kidd ❤️</h2>
+      <p>On this Rose Day, I want to tell you how special you are to me. Like this beautiful rose, you bring color and fragrance to my life</p>
+      <p>Happy Rose Day! 🌹</p>
+      <button onclick="closeLetter()">Close ✨</button>
+  </div>
+</div>
+
+<style>
+.letter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.letter-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.5);
+  animation: fadeIn 0.5s ease-in;
+}
+
+.letter-content h2 {
+  color: #ff69b4;
+  margin-bottom: 1rem;
+}
+
+.letter-content p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.letter-content button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.letter-content button:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+</style>
+
+<script>
+document.querySelector('.rose').addEventListener('click', function() {
+  document.getElementById('letter').style.display = 'flex';
+});
+
+function closeLetter() {
+  document.getElementById('letter').style.display = 'none';
+}
+</script>
+<div style="display: none;">
+  <audio autoplay="" loop="" controls="">
+    <source src="Song.mp3" type="audio/mp3">
+  </audio>
+</div>
+
+<h1>By the person who annoys you most 😌✨</h1>
+</body>
+
+</html>
+
